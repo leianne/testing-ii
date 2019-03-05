@@ -1,0 +1,63 @@
+const players = [{
+  "id": 1,
+  "player_name": "Meier",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 2,
+  "player_name": "Galen",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 3,
+  "player_name": "Bear",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 4,
+  "player_name": "Kalli",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 5,
+  "player_name": "Perkin",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 6,
+  "player_name": "Karita",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 7,
+  "player_name": "Bealle",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 8,
+  "player_name": "Harley",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 9,
+  "player_name": "Karine",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}, {
+  "id": 10,
+  "player_name": "Albina",
+  "strikes": 0,
+  "hits": 0,
+  "balls": 0
+}]
+
+export default players;
