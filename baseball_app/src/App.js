@@ -10,7 +10,9 @@ class App extends Component {
   state = {
     players: players,
     selectedPlayerId: null, 
-    currPlayer: {}
+    currPlayer: {
+      player_name: ''
+    }
   }
 
   playerSelected = (id) => {
