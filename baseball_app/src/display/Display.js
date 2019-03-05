@@ -2,7 +2,9 @@ import React from 'react';
 
 const Display = props => {
     return (
-        <h1>Connected</h1>
+        <>
+            {props.currPlayer.player_name ? <h3>Up to bat: {props.currPlayer.player_name}</h3> : <h3>Looks likes the game is starting in a few!</h3>}
+        </>
     )
 }
 

@@ -6,6 +6,7 @@ const DashBoardComponent = props => {
         return (
             <>
                 <h1>Players</h1>
+                {props.currPlayer.player_name ? <h4>Up to bat {props.currPlayer.player_name}</h4> : <h4>Please select a player</h4>}
                 {props.players.map(e => {
                     return (
                         <div key={e.id} onClick={() => props.playerSelected(e.id) }>
